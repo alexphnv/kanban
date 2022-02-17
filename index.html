@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Kanban desk</title>
+</head>
+
+<body>
+    <!-- <header>Stop starting, start finishing</header> -->
+    <div class="container">
+        <div class="column" id="todo">
+            <div class="head">
+                <h2>To do</h2>
+                <button class="btn" id="todobtn">add task</button>
+            </div>
+            <div class="taskcontainer todoTask">
+                <!-- <textarea class="newtask" name="" id=""></textarea> -->
+                <!-- <div class="newtask"><input type="text"></div> -->
+            </div>
+        </div>
+        <div class="column" id="inprogress">
+            <div class="head">
+                <h2>In progress</h2>
+                <button class="btn" id="inprogressbtn">add task</button>
+            </div>
+            <div class="taskcontainer inprogressTask"></div>
+        </div>
+        <div class="column" id="done">
+            <div class="head">
+                <h2>Done</h2>
+                <button class="btn" id="donebtn">clear</button>
+            </div>
+            <div class="taskcontainer doneTask"></div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+    <!-- <script src="https://kit.fontawesome.com/a9858e9911.js" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
