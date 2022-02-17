@@ -11,7 +11,7 @@ let draggables = document.querySelectorAll('.draggable')
 const taskcontainers = document.querySelectorAll('.taskcontainer')
 let taskId = 0;
 
-(function () { //get tasks from localstorage
+(function () { //get tasks from localstorages
     let tasksFromLS = []
     Object.keys(localStorage).forEach(task => tasksFromLS.
         push(JSON.parse(localStorage.getItem(task))))
